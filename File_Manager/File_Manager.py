@@ -7,15 +7,15 @@ from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
 from watchdog.events import FileSystemEventHandler
 
-source_dir=r"C:/Users/Murloc_Rampage/Downloads"
-dest_dir_sfx=r"C:/Users/Murloc_Rampage/Downloads/SFX"
-dest_dir_music=r"C:/Users/Murloc_Rampage/Downloads/Music"
-dest_dir_images=r"C:/Users/Murloc_Rampage/Downloads/Images"
-dest_dir_pdn=r"C:/Users/Murloc_Rampage/Downloads/Pdn"
-dest_dir_videos=r"C:/Users/Murloc_Rampage/Downloads/Videos"
-dest_dir_documents=r"C:/Users/Murloc_Rampage/Downloads/Docs"
-dest_dir_text=r"C:/Users/Murloc_Rampage/Downloads/Text_Files"
-dest_dir_zips=r"C:/Users/Murloc_Rampage/Downloads/zips"
+source_dir=r""
+dest_dir_sfx=r""
+dest_dir_music=r""
+dest_dir_images=r""
+dest_dir_pdn=r""
+dest_dir_videos=r""
+dest_dir_documents=r""
+dest_dir_text=r""
+dest_dir_zips=r""
 
 def makeUnique(dest, name):
     filename, extension = os.path.splitext(name)
